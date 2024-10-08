@@ -1,0 +1,81 @@
+.create-project {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-project h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .create-project .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .create-project .ant-form-item-label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .create-project .ant-input,
+  .create-project .ant-input-number,
+  .create-project .ant-datepicker {
+    border-radius: 4px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .create-project .ant-input-textarea {
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .create-project .ant-btn-primary {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #2B9B2F; /* Same green as your website */
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .create-project .ant-btn-primary:hover {
+    background-color: #218b24;
+  }
+  
+  .create-project .ant-btn-loading {
+    background-color: #218b24 !important;
+  }
+  
+  @media (max-width: 768px) {
+    .create-project {
+      padding: 15px;
+    }
+  
+    .create-project h2 {
+      font-size: 20px;
+    }
+  
+    .create-project .ant-form-item {
+      margin-bottom: 12px;
+    }
+  
+    .create-project .ant-input,
+    .create-project .ant-input-number,
+    .create-project .ant-datepicker {
+      height: 35px;
+    }
+  
+    .create-project .ant-btn-primary {
+      font-size: 14px;
+    }
+  }
+  

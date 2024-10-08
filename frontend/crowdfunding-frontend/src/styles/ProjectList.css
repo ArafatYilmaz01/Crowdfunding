@@ -1,0 +1,80 @@
+.project-list {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .project-list h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .project-list .create-button {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .project-list .ant-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-list .ant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-list .ant-card-body {
+    padding: 16px;
+  }
+  
+  .project-list .ant-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2B9B2F;
+  }
+  
+  .project-list .ant-card p {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
+  .project-list .funding-input {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .project-list .ant-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .project-list .ant-btn-primary {
+    background-color: #2B9B2F;
+    border-color: #2B9B2F;
+  }
+  
+  .project-list .ant-btn-primary:hover {
+    background-color: #218b24;
+    border-color: #218b24;
+  }
+  
+  .project-list .ant-btn:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+  }
+  
+  .project-list .spin-container {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .project-list .ant-card {
+      width: 100%;
+    }
+  }
+  
